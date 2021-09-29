@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_putih_9"
+    tools:context=".RuangTamu">
+
+    <ImageView
+        android:layout_width="452dp"
+        android:layout_height="605dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="126dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/bg_kuning_9" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reply_9"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/img_reply"/>
+
+
+    <ImageView
+        android:id="@+id/ruangtamu1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/ruangtamu_1" />
+
+    <ImageView
+        android:id="@+id/ruangtamu2"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/ruangtamu_2" />
+
+    <ImageView
+        android:id="@+id/ruangtamu3"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/ruangtamu_3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ruangtamu1"
+        android:layout_marginLeft="55dp"
+        android:src="@drawable/love_9"
+        android:layout_marginTop="-20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:src="@drawable/love_9"
+        android:layout_marginTop="502dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:src="@drawable/love_9"
+        android:layout_marginTop="680dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_reply"
+        android:layout_marginLeft="20dp"
+        android:text="Beranda"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="35dp"
+        android:text="Pilihan Desain"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="65dp"
+        android:text="Ruang Tamu"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="310dp"
+        android:text="16.092.021 orang menyukai"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="500dp"
+        android:text="16.092.021 orang menyukai"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="680dp"
+        android:text="16.092.021 orang menyukai"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/save_9"
+        android:layout_marginTop="306dp"
+        android:layout_marginLeft="340dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/save_9"
+        android:layout_marginTop="499dp"
+        android:layout_marginLeft="340dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="678dp"
+        android:src="@drawable/save_9" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kuningbulat_9"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="335dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/save1_9"
+        android:layout_marginTop="627dp"
+        android:layout_marginLeft="348dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tersimpan"
+        android:textColor="@color/black"
+        android:layout_marginTop="655dp"
+        android:layout_marginLeft="345dp"
+        android:textSize="7dp"/>
+
+
+
+</RelativeLayout>
