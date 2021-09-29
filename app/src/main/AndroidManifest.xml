@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dream_house">
         <activity
+            android:name=".RuangTamu"
+            android:exported="true" />
+        <activity
             android:name=".slide_8"
             android:exported="true" />
         <activity
