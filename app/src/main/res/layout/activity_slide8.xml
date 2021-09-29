@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".slide_8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="173dp"
+        android:layout_marginTop="35dp"
+        android:text="Pilihan Desain"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tampak Depan"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="170dp"
+        android:textStyle="italic|bold"/>
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/img_reply"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="28dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beranda"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_marginTop="63dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="581dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/bg_kuning" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img_desain_rumah_tampak_depan1"
+        android:layout_marginTop="200dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_vector"
+        android:layout_marginTop="355dp"
+        android:layout_marginLeft="73dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16.092.021 orang menyukai"
+        android:textColor="@color/black"
+        android:layout_marginTop="353dp"
+        android:layout_marginLeft="88dp"
+        android:textSize="10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_simpan"
+        android:layout_marginTop="355dp"
+        android:layout_marginLeft="317dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img_desain_rumah_tampak_depan2"
+        android:layout_marginTop="400dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_vector"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="73dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16.092.021 orang menyukai"
+        android:textColor="@color/black"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="88dp"
+        android:textSize="10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_simpan"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="317dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img_desain_rumah_tampak_depan_3"
+        android:layout_marginTop="600dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_elipse"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="310dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_save"
+        android:layout_marginTop="658dp"
+        android:layout_marginLeft="322dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tersimpan"
+        android:textColor="@color/black"
+        android:layout_marginTop="685dp"
+        android:layout_marginLeft="318dp"
+        android:textSize="8dp"/>
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_putih"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang Aplikasi"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_reply"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="28dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beranda"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_marginTop="63dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="581dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/bg_kuning"/>
+
+
+</RelativeLayout>
